@@ -30,7 +30,9 @@ Route::get('/contact', function () {
     return view('enduser.contact');
 })->name('contact');
 
-
+Route::get('/shopsingle', function () {
+    return view('enduser.layout.shopsingle');
+})->name('shopsingle');
 
 
 
